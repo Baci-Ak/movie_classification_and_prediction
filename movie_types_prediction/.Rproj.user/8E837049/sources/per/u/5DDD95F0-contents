@@ -1,0 +1,10 @@
+install.packages("tissuesGeneExpression")
+library(tidyverse)
+library(dslabs)
+
+library(tissuesGeneExpression)
+data("movielens")
+view(movielens)
+
+library(BiocInstaller)
+ins
